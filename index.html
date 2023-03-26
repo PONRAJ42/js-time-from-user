@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="html,js">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>days times</title>
+	
+	
+  
+</head> 
+	<body>
+		<script>
+			//03. Get time from user and find(morning,afternoon,or night)
+			
+			var hrs=prompt("enter time");
+	 
+				switch (true) {
+				case (hrs >=6 && hrs<12):document.write("MORNING");
+					break;
+				case (hrs >= 13 && hrs <= 17):
+					document.write("AFTERNOON");
+					break;
+				case (hrs >= 18 && hrs <= 20):
+					document.write("EVENING");
+					break;
+				case(hrs >= 21 && hrs <= 24):
+					document.write("NIGHT");
+					break;
+				default:
+				document.write("wrong time");
+					break;
+				}
+				
+				
+				
+				
+				
+		</script>
+	</body>
+	</html>
